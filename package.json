@@ -9,17 +9,30 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@prisma/client": "^5.5.2",
     "@types/node": "20.8.9",
     "@types/react": "18.2.33",
     "@types/react-dom": "18.2.14",
     "autoprefixer": "10.4.16",
     "eslint": "8.52.0",
     "eslint-config-next": "13.5.6",
+    "fs": "^0.0.1-security",
+    "net": "^1.0.2",
     "next": "13.5.6",
+    "next-auth": "^4.24.4",
     "postcss": "8.4.31",
+    "prisma": "^5.5.2",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "react-hook-form": "^7.47.0",
     "tailwindcss": "3.3.5",
-    "typescript": "5.2.2"
+    "tls": "^0.0.1",
+    "typescript": "5.2.2",
+    "yookassa": "^0.1.1"
+  },
+  "browser": {
+    "fs": false,
+    "path": false,
+    "os": false
   }
 }

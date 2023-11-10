@@ -8,20 +8,63 @@
   --background-end-rgb: 255, 255, 255;
 }
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;
     --background-start-rgb: 0, 0, 0;
     --background-end-rgb: 0, 0, 0;
   }
-}
+} */
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+}
+
+.item-card {
+  width: calc(100%/3);
+  text-align: center;
+}
+
+.item-card a:hover {
+  transform: scale(1.03);
+}
+
+.item-card img {
+  margin: 0 auto;
+  height: 280px;
+}
+
+/* main {
+  min-height: calc(100vh - 50px);
+} */
+
+textarea {
+  resize: none;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+h2 {
+  font-size: 20px;
+  line-height: 30px;
+  max-width: 500px;
+}
+
+ul, li {
+  list-style: none;
+}
+
+h3 {
+  font-size: 24px;
+  margin-bottom: 2rem;
 }

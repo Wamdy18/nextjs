@@ -1,0 +1,67 @@
+{
+    "items": [
+        {
+            "id": "1",
+            "label": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex quaerat sequi qui obcaecati deleniti nemo voluptatum quo vero fugiat dicta.",
+            "oldPrice": "3600",
+            "newPrice": "2800",
+            "imgLink": "/items/item1.png"
+        },
+        {
+            "id": "2",
+            "label": "Lorem adipisicing elit. Ex quaerat sequi qui obcaecati deleniti nemo voluptatum quo vero fugiat dicta.",
+            "oldPrice": "3400",
+            "newPrice": "2700",
+            "imgLink": "/items/item2.png"
+        },
+        {
+            "id": "3",
+            "label": "Dolor sit amet consectetur adipisicing elit. Ex quaerat sequi qui obcaecati deleniti nemo voluptatum quo vero fugiat dicta.",
+            "oldPrice": "3900",
+            "newPrice": "2900",
+            "imgLink": "/items/item3.png"
+        },
+        {
+            "id": "4",
+            "label": "Ipsum dolor sit amet consectetur adipisicing elit. Ex quaerat sequi qui obcaecati deleniti nemo voluptatum quo vero fugiat dicta.",
+            "oldPrice": "5000",
+            "newPrice": "4200",
+            "imgLink": "/items/item4.png"
+        },
+        {
+            "id": "5",
+            "label": "Ipsum dolor sit amet consectetur adipisicing elit. Ex quaerat sequi qui obcaecati deleniti nemo voluptatum quo vero fugiat dicta.",
+            "oldPrice": "5000",
+            "newPrice": "4200",
+            "imgLink": "/items/item5.png"
+        },
+        {
+            "id": "6",
+            "label": "Ipsum dolor sit amet consectetur adipisicing elit. Ex quaerat sequi qui obcaecati deleniti nemo voluptatum quo vero fugiat dicta.",
+            "oldPrice": "5000",
+            "newPrice": "4200",
+            "imgLink": "/items/item6.png"
+        },
+        {
+            "id": "7",
+            "label": "Ipsum dolor sit amet consectetur adipisicing elit. Ex quaerat sequi qui obcaecati deleniti nemo voluptatum quo vero fugiat dicta.",
+            "oldPrice": "5000",
+            "newPrice": "4200",
+            "imgLink": "/items/item7.png"
+        },
+        {
+            "id": "8",
+            "label": "Ipsum dolor sit amet consectetur adipisicing elit. Ex quaerat sequi qui obcaecati deleniti nemo voluptatum quo vero fugiat dicta.",
+            "oldPrice": "5000",
+            "newPrice": "4200",
+            "imgLink": "/items/item8.png"
+        },
+        {
+            "id": "9",
+            "label": "Ipsum dolor sit amet consectetur adipisicing elit. Ex quaerat sequi qui obcaecati deleniti nemo voluptatum quo vero fugiat dicta.",
+            "oldPrice": "5000",
+            "newPrice": "4200",
+            "imgLink": "/items/item9.png"
+        }
+    ]
+}

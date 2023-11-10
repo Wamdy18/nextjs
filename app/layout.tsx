@@ -1,6 +1,10 @@
 import './globals.css'
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
+import NavBar from './NavBar'
+import Footer from './Footer'
+import { Providers } from '@/components/Providers'
+import Script from 'next/script'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -16,7 +20,14 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        <Providers>
+          <header><NavBar/></header>
+          <main className='p-10'>{children}</main>
+          <footer><Footer/></footer>
+        </Providers>
+        <Script src="https://static.yoomoney.ru/checkout-js/v1/checkout.js" />
+      </body>
     </html>
   )
 }

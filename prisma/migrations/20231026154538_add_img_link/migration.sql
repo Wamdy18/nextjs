@@ -1,0 +1,2 @@
+-- AlterTable
+ALTER TABLE `Item` ADD COLUMN `imgLink` VARCHAR(255) NOT NULL DEFAULT '';
