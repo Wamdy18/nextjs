@@ -13,7 +13,7 @@ async function getAllItems() {
 
   return response.json();
 }
-
+ 
 export default function Home() {
   const [items, setItems] = useState<any[]>([])
   const [isLoading, setIsLoading] = useState(true)
