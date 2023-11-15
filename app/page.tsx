@@ -5,7 +5,7 @@ import Spinner from "@/components/Spinner";
 import { useEffect, useState } from 'react';
 
 async function getAllItems() {
-  const response = await fetch(`${process.env.API_HOST}/items`, {
+  const response = await fetch(`${process.env.NEXT_PUBLIC_API_HOST}/items`, {
     next: {
       revalidate: 10,
     },

@@ -8,7 +8,7 @@ import styles from './Item.module.css';
 import Link from 'next/link';
 
 async function getItem(id: any) {
-  const response = await fetch(`${process.env.API_HOST}/items/${id}`, {
+  const response = await fetch(`${process.env.NEXT_PUBLIC_API_HOST}/items/${id}`, {
     next: {
       revalidate: 10,
     },

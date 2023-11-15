@@ -46,7 +46,7 @@ const NewItem = () => {
     <div>
         <form className='flex flex-col gap-4' onSubmit={handleSubmit(async (data : any) => {
             data.image = image;
-            const resp = await fetch(`${process.env.API_HOST}/items`, {
+            const resp = await fetch(`${process.env.NEXT_PUBLIC_API_HOST}/items`, {
                 method: "POST",
                 body: JSON.stringify(data)
             });
