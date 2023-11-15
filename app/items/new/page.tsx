@@ -18,15 +18,15 @@ interface ItemForm {
 
 const NewItem = () => {
     const {register, handleSubmit, reset} = useForm<ItemForm>();
-    const router = useRouter();
+    // const router = useRouter();
 
-    const session = useSession();
-    if (
-        session?.data?.user?.email === '79527386291kot@gmail.com' ||
-        session?.data?.user?.name === 'admin'
-    ) {} else {
-        router.push('/');
-    }
+    // const session = useSession();
+    // if (
+    //     session?.data?.user?.email === '79527386291kot@gmail.com' ||
+    //     session?.data?.user?.name === 'admin'
+    // ) {} else {
+    //     router.push('/');
+    // }
 
     const [image, setImage] = useState<any>(null)
     const [imageInput, setImageInput] = useState(null)
